@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>AMP WEBSITE</title>
+<link href="AMP%20WEBSITE_files/style.css" rel="stylesheet" type="text/css">
+<script src="AMP%20WEBSITE_files/jquery-1.js"></script>
+<script src="AMP%20WEBSITE_files/jquery-2.js"></script>
+<script src="AMP%20WEBSITE_files/slider.js"></script>
+</head>	<body>
+<script>
+$(document).ready(function(){
+	var scrollPos = $(document).scrollTop();
+	$("#header-image").css("background-color", "green");
+    var header = $('#header-image');
+    if (header.position().top <= scrollPos) {
+    		//header.removeClass("header-image");
+        	//header.addClass("header-nav");
+        	$("#header-image").css("background-color", "red");
+    }
+    else{
+    	$("#header-image").css("background-color", "yellow");
+            //header.removeClass("header-nav");
+    }	
+});	
+
+</script>
+<div id="wrapper">
+<div style="background-color: red;" class="header-image" id="header-image">
+<header class="banner navbar navbar-inverse" role="banner">
+	<div style="position: relative;">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#"><img src="AMP%20WEBSITE_files/amp.htm" alt="AMP"></a>
+		</div>
+		
+		<nav class="navbar-right" role="navigation">
+		
+			<ul>
+				<li><a href="http://localhost/amp_website/index.php">HOME</a></li>
+				<li><a href="http://localhost/amp_website/about_us.php">ABOUT US</a></li>
+				<li><a href="#">CONTACT US</a></li>
+			</ul>	
+		</nav>
+
+	</div>
+</header>
+</div>
+
+
+<div class="partners_block">
+	<table class="about_tbl">
+		<tbody><tr>
+			<td>
+				<div class="about_block">
+					<img src="AMP%20WEBSITE_files/bar.png" alt="bar">
+					<h2>What is AMP </h2>
+					<p>text text text text text text text text text text text text text text text text text text text text text text text text</p>
+				</div>
+			</td>
+			<td class="space">&nbsp;</td>
+			<td>
+				<div class="about_block">
+					<img src="AMP%20WEBSITE_files/tick_grey.png" alt="achieve">
+					<h2>Achievements</h2>
+					<p>text text text text text text text text text text text text text text text text text text text text text text text text</p>
+				</div></td>
+			<td class="space">&nbsp;</td>
+			<td>
+				<div class="about_block">
+					<img src="AMP%20WEBSITE_files/bull_ico.png" alt="bull">
+					<h2>Goals</h2>
+					<p>text text text text text text text text text text text text text text text text text text text text text text text text</p>
+				</div>
+            </td>
+		</tr><tr>
+		<td class="space">&nbsp;</td>
+		</tr><tr>
+			<td>
+				<div class="about_block">
+					<img src="AMP%20WEBSITE_files/f2.png" alt="bull">
+					<h2>Mission Statement</h2>
+					<p>text text text text text text text text text text text text text text text text text text text text text text text text</p>
+				</div>
+			</td>
+			<td class="space">&nbsp;</td>
+			<td>
+				<div class="about_block">
+					<img src="AMP%20WEBSITE_files/bull_ico.jpg" alt="bull">
+					<h2>Student Care</h2>
+					<p>text text text text text text text text text text text text text text text text text text text text text text text text</p>
+				</div></td>
+			<td class="space">&nbsp;</td>
+			<td>
+				<div class="about_block">
+					<img src="AMP%20WEBSITE_files/bull_ico.jpg" alt="bull">
+					<h2>Goals</h2>
+					<p>text text text text text text text text text text text text text text text text text text text text text text text text</p>
+				</div>
+			</td>
+		</tr><tr>
+	</tr></tbody></table>
+</div>
+
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Company<span>logo</span></h3>
+
+				<p class="footer-links">
+					<a href="#">Home</a>·
+					<a href="#">About Us</a>·
+					<a href="#">Contact Us</a>·
+					<a href="#">Faq</a>·
+				</p>
+
+				<p class="footer-company-name">African Millionaire Program © 2016</p>
+			</div>
+
+			<div class="footer-center">
+				<p>
+					<span>Navigation</span>
+				</p>
+				<div class="footer-nav">
+					<ul>
+						<li><a href="#"><span>&gt;</span> Home </a></li>
+						<li><a href="#"><span>&gt;</span> About Us</a></li>
+						<li><a href="#"><span>&gt;</span> Contact Us</a></li>
+						<li><a href="#"><span>&gt;</span> FAQ</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="footer-right">
+
+				<p><span>Stay Connected</span></p>
+
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+				</div>
+				<p><a href="mailto:info@Trade4Africa.com">info@Trade4Africa.com</a></p>
+			</div>
+			<div class="footer-space">&nbsp;</div>
+			
+			<div class="footer-bottom">
+				<div class="footer-line">
+					<table class="footer-table">
+						<tbody><tr><td><span>2nd Floor, Nelson Mandela Square, West Tower, Sandton City</span></td></tr>
+					</tbody></table>
+				</div>
+				<ul>
+					<li>DEAP Developments © 2016 &nbsp;|</li>
+					<li><span><a href="#">User Login &nbsp;|</a></span></li>
+					<li><span><a href="#">Privacy Policy &nbsp;|</a></span></li>
+					<li><span><a href="#">Site Map</a></span></li>
+				</ul>
+			</div>
+
+			
+		</footer></div>	
+
+
+</body></html>

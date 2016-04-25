@@ -1,0 +1,8 @@
+Hello #USERNAME#
+
+Welcome to #WEBSITENAME#
+#ACTIVATION-MESSAGE
+
+
+Regards,
+Helix Admin Team
